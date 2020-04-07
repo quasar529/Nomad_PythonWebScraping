@@ -4,11 +4,14 @@
 # type : int, float, bool, str, none
 # sequence type : list, tuple
 
-# list : list=[..]
+# list : list=[..] 
+# list 는 mutable sequence (변경가능)
 
 # 배열에 어떤 원소 있나 확인 가능 ex) print("Mon" in days)= True/False
-days=["Mon", "Tue", "Tue", "Thr", "Fri"]
-
-print("Mon" in days)
-days.append("Sat")
-print(days)
+# tuple : tuple=(..)
+# dictionary : class 와 유사
+Jun={
+    "name": "Jun",
+    "age" : 24,
+    "Korean": True
+}
