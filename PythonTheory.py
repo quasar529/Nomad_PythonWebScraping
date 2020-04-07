@@ -15,7 +15,19 @@
 # 들여쓰기 해야 body 안에 포함됨
 
 # default argument 사용 가능
-def calculator(a=0,b=0):
+
+# return 후 함수 종료, 즉 2번 return 불기
+def calculator(a=0,b=0):    #positional argument
     print(a+b)
 
-calculator(4,5)
+def cal(a,b):               #keyword argument
+    print(a-b)
+
+cal(b=9, a=10)
+
+def say_hello_f(name, age):
+    return f"Hello {name} you are {age} years old"
+    #return "Hello"+name+"you are"+ age+ "years old"
+hello=say_hello_f("Jun", "12")
+
+print (hello)
