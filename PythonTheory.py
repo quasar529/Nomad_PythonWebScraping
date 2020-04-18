@@ -17,17 +17,48 @@
 # default argument 사용 가능
 
 # return 후 함수 종료, 즉 2번 return 불기
-def calculator(a=0,b=0):    #positional argument
-    print(a+b)
+# def calculator(a=0,b=0):    #positional argument
+#     print(a+b)
 
-def cal(a,b):               #keyword argument
-    print(a-b)
+# def cal(a,b):               #keyword argument
+#     print(a-b)
 
-cal(b=9, a=10)
+# cal(b=9, a=10)
 
-def say_hello_f(name, age):
-    return f"Hello {name} you are {age} years old"
-    #return "Hello"+name+"you are"+ age+ "years old"
-hello=say_hello_f("Jun", "12")
+# def say_hello_f(name, age):
+#     return f"Hello {name} you are {age} years old"
+#     #return "Hello"+name+"you are"+ age+ "years old"
+# hello=say_hello_f("Jun", "12")
 
-print (hello)
+# print (hello)
+
+
+# def plus(a,b) :
+#     if type(b) is int or type(b) is float:  # is , is not
+#         return a+b
+#     else:
+#         return None
+
+# print(plus(12,"10"));
+
+# def age_check(age):
+#     print (f"you are {age}")
+#     if age<18:
+#         print("you can't drink")
+#     elif 20<age<25:
+#         print("be careful")
+#     else:
+#         print("enjoy")
+
+# age_check(23)
+
+# days=("mon", "Tue", "wed", "thu")
+
+# for x in days:
+#     print(x)
+
+#import
+#다른 파일에서 가져올 수도 있음 ex calclator.py 만들고 그 안의 함수 import 가능
+# from math import ceil, fsum
+# from math import factorial as fac
+# print(ceil(1.2))    #사용할 것만 import 하자!
